@@ -17,6 +17,7 @@ version = 1
 [install]
 go_1_22.pkg-path = "go_1_22"
 nodejs_20.pkg-path = "nodejs_20"
+just.pkg-path = "just"
 # gum.pkg-path = "gum"
 # gum.version = "^0.14.5"
 
