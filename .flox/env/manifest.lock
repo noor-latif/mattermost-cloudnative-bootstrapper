@@ -1,0 +1,271 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "go_1_22": {
+        "pkg-path": "go_1_22"
+      },
+      "nodejs_20": {
+        "pkg-path": "nodejs_20"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {}
+  },
+  "packages": [
+    {
+      "attr_path": "go_1_22",
+      "broken": false,
+      "derivation": "/nix/store/6vhcr549pcx1kc6v3bvdws9jzsfj2shb-go-1.22.12.drv",
+      "description": "Go Programming language",
+      "install_id": "go_1_22",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=698214a32beb4f4c8e3942372c694f40848b360d",
+      "name": "go-1.22.12",
+      "pname": "go_1_22",
+      "rev": "698214a32beb4f4c8e3942372c694f40848b360d",
+      "rev_count": 773904,
+      "rev_date": "2025-03-25T07:53:30Z",
+      "scrape_date": "2025-03-27T01:09:57.967123Z",
+      "stabilities": [
+        "unstable",
+        "staging",
+        "stable"
+      ],
+      "unfree": false,
+      "version": "1.22.12",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/qn322b0xjl404d6w49m3zh4mzk0nbrfq-go-1.22.12"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go_1_22",
+      "broken": false,
+      "derivation": "/nix/store/pqwcmpvdg0ils62b7lx8vp5z2x5p603y-go-1.22.12.drv",
+      "description": "Go Programming language",
+      "install_id": "go_1_22",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=698214a32beb4f4c8e3942372c694f40848b360d",
+      "name": "go-1.22.12",
+      "pname": "go_1_22",
+      "rev": "698214a32beb4f4c8e3942372c694f40848b360d",
+      "rev_count": 773904,
+      "rev_date": "2025-03-25T07:53:30Z",
+      "scrape_date": "2025-03-27T01:27:13.440753Z",
+      "stabilities": [
+        "unstable",
+        "staging",
+        "stable"
+      ],
+      "unfree": false,
+      "version": "1.22.12",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/3rhfplxcbcq6sn46x9d86b6g4a0fyffh-go-1.22.12"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go_1_22",
+      "broken": false,
+      "derivation": "/nix/store/899zqbmcwkh4mr2r57yl8zkrmx787b3m-go-1.22.12.drv",
+      "description": "Go Programming language",
+      "install_id": "go_1_22",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=698214a32beb4f4c8e3942372c694f40848b360d",
+      "name": "go-1.22.12",
+      "pname": "go_1_22",
+      "rev": "698214a32beb4f4c8e3942372c694f40848b360d",
+      "rev_count": 773904,
+      "rev_date": "2025-03-25T07:53:30Z",
+      "scrape_date": "2025-03-27T01:42:58.362983Z",
+      "stabilities": [
+        "unstable",
+        "staging",
+        "stable"
+      ],
+      "unfree": false,
+      "version": "1.22.12",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/3jmnyd8qzjwaibgwpy40izllr8fxjz4q-go-1.22.12"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go_1_22",
+      "broken": false,
+      "derivation": "/nix/store/0xz084gwm79mxka9h2kwrm6z9385wv69-go-1.22.12.drv",
+      "description": "Go Programming language",
+      "install_id": "go_1_22",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=698214a32beb4f4c8e3942372c694f40848b360d",
+      "name": "go-1.22.12",
+      "pname": "go_1_22",
+      "rev": "698214a32beb4f4c8e3942372c694f40848b360d",
+      "rev_count": 773904,
+      "rev_date": "2025-03-25T07:53:30Z",
+      "scrape_date": "2025-03-27T02:01:43.364577Z",
+      "stabilities": [
+        "unstable",
+        "staging",
+        "stable"
+      ],
+      "unfree": false,
+      "version": "1.22.12",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/mdw3nfcaxld4g00rmcfa4rs2ywm17fdq-go-1.22.12"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs_20",
+      "broken": false,
+      "derivation": "/nix/store/n1zaj0jsnh612ng4w2yzgrb9cfym7y3r-nodejs-20.19.0.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs_20",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=698214a32beb4f4c8e3942372c694f40848b360d",
+      "name": "nodejs-20.19.0",
+      "pname": "nodejs_20",
+      "rev": "698214a32beb4f4c8e3942372c694f40848b360d",
+      "rev_count": 773904,
+      "rev_date": "2025-03-25T07:53:30Z",
+      "scrape_date": "2025-03-27T01:10:00.069588Z",
+      "stabilities": [
+        "unstable",
+        "staging",
+        "stable"
+      ],
+      "unfree": false,
+      "version": "20.19.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "libv8": "/nix/store/sdqv13b8qfmj0k6rg2ix14bxyd22abcr-nodejs-20.19.0-libv8",
+        "out": "/nix/store/mnpp9czqfgwisyr7ikfyp39lx3xxrdwg-nodejs-20.19.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs_20",
+      "broken": false,
+      "derivation": "/nix/store/mhaj12hr467sbljhwxj5qc2dwji855sj-nodejs-20.19.0.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs_20",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=698214a32beb4f4c8e3942372c694f40848b360d",
+      "name": "nodejs-20.19.0",
+      "pname": "nodejs_20",
+      "rev": "698214a32beb4f4c8e3942372c694f40848b360d",
+      "rev_count": 773904,
+      "rev_date": "2025-03-25T07:53:30Z",
+      "scrape_date": "2025-03-27T01:27:22.059555Z",
+      "stabilities": [
+        "unstable",
+        "staging",
+        "stable"
+      ],
+      "unfree": false,
+      "version": "20.19.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "libv8": "/nix/store/7i02830b2pxlapzav6yyggymqmp6rk02-nodejs-20.19.0-libv8",
+        "out": "/nix/store/qz522zmsx441py29xy69sf5671bkhpj2-nodejs-20.19.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs_20",
+      "broken": false,
+      "derivation": "/nix/store/gdn6im4ly83fr8k05nfhw2ni7pqn5ilp-nodejs-20.19.0.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs_20",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=698214a32beb4f4c8e3942372c694f40848b360d",
+      "name": "nodejs-20.19.0",
+      "pname": "nodejs_20",
+      "rev": "698214a32beb4f4c8e3942372c694f40848b360d",
+      "rev_count": 773904,
+      "rev_date": "2025-03-25T07:53:30Z",
+      "scrape_date": "2025-03-27T01:43:00.443014Z",
+      "stabilities": [
+        "unstable",
+        "staging",
+        "stable"
+      ],
+      "unfree": false,
+      "version": "20.19.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "libv8": "/nix/store/px89hqr3wcfk0w6146hf4171bvj4chgp-nodejs-20.19.0-libv8",
+        "out": "/nix/store/4k73p2z9h5rnfv9gal8n6m4srx5sggs8-nodejs-20.19.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs_20",
+      "broken": false,
+      "derivation": "/nix/store/cc01fzx9v6fr80vv4lwh1b6r5ii3c4iy-nodejs-20.19.0.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs_20",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=698214a32beb4f4c8e3942372c694f40848b360d",
+      "name": "nodejs-20.19.0",
+      "pname": "nodejs_20",
+      "rev": "698214a32beb4f4c8e3942372c694f40848b360d",
+      "rev_count": 773904,
+      "rev_date": "2025-03-25T07:53:30Z",
+      "scrape_date": "2025-03-27T02:01:53.367989Z",
+      "stabilities": [
+        "unstable",
+        "staging",
+        "stable"
+      ],
+      "unfree": false,
+      "version": "20.19.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "libv8": "/nix/store/58xkwxwvns2cxzdn1aipwnm8x599j7yy-nodejs-20.19.0-libv8",
+        "out": "/nix/store/0spgg02awhcqn989vyn40w8yjna681gh-nodejs-20.19.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}

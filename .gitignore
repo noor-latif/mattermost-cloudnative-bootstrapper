@@ -25,3 +25,9 @@ yarn-error.log*
 dist
 
 webapp/build
+
+# Flox environment transient files
+.flox/cache/
+.flox/run/
+.flox/log/
+.flox/lib/

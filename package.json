@@ -31,7 +31,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "NODE_ENV=development concurrently \"electron main.js\" \"cd webapp && npm start\"",
     "react-build": "cd webapp && npm run build",  
-    "go-build": "make build_macos", 
+    "go-build": "make build_desktop_macos", 
     "build": "CSSMERR_TP_NOT_TRUSTED=true npm run react-build && npm run go-build && electron-builder",
     "build-electron": "electron-builder"
   },
