@@ -211,7 +211,10 @@ export const {
     useGetKubeConfigQuery,
     useGetStateQuery,
     useCheckExistingSessionQuery,
+<<<<<<< HEAD
     useClearSessionMutation,
+=======
+>>>>>>> patch-mattermost-env
     useSetRegionMutation,
     useWatchInstallationLogsQuery,
     useGetPodsForInstallationQuery,
